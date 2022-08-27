@@ -1,0 +1,74 @@
+/* https://fonts.google.com/specimen/Rubik+Dirt?query=rubik&preview.text=Shoping%20Cart&preview.text_type=custom*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+*{
+    margin:0;
+    padding:0;  
+    width:100%;      
+
+}
+body{
+    margin:0;
+    padding:0;
+}
+/* Encabezado */
+header{ 
+    position: fixed;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: nowrap;
+    width: 100%;} 
+    
+#encabezado {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    color:#5499C7; /* rgb(84,153,199,78)   */
+    align-items: center;
+    max-width: 1530px;
+    height: 90px;       
+}
+#encabezado ul {
+    display: flex;
+    padding: 0;
+    margin:0
+} 
+#encabezado li {
+    width: 150px;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    list-style: none;}
+header a {
+    color:#5499C7; /* rgb(84,153,199,78)   */
+    text-decoration:none;
+    text-transform: uppercase;
+}
+header a:hover {
+    color:#F21D2F; /* rgb(242,29,47,95)   */
+}
+.divLogotipo {width: 33%;}   
+.divMenu {display: 33%;} 
+.divCarrito {width: 33%;} 
+.divCarrito {
+    text-align: right;
+    font-weight: bold;
+    font-family: arial;
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+    padding: 23px 50px 5px 0px;
+  }
+.divLogotipo img{
+    width: 160px;
+}
+.totalcompras {
+    background:#F21D2F; /* rgb(242,29,47,95)   */
+    padding: 2px;
+    border-radius: 19%;
+    font-size: 10px;
+    color: #fff; /* rgb(255,255,255,100) */
+    position: relative;
+    top: -30px;
+    left: 15px;
+  }

@@ -1,0 +1,99 @@
+/* Encabezado */
+header{ 
+    position: fixed;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: nowrap;
+    width: 100%;} 
+    
+#encabezado {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    color:#5499C7; /* rgb(84,153,199,78)   */
+    align-items: center;
+    max-width: 1530px;
+    height: 90px;       
+}
+#encabezado ul {
+    display: flex;
+    padding: 0;
+    margin:0
+} 
+#encabezado li {
+    width: 150px;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    list-style: none;}
+header a {
+    color:#5499C7; /* rgb(84,153,199,78)   */
+    text-decoration:none;
+    text-transform: uppercase;
+}
+header a:hover {
+    color:#F21D2F; /* rgb(242,29,47,95)   */
+}
+.divLogotipo{
+    width:34%;
+}
+.divLogotipo img{
+    width: 160px;
+}
+.divCarrito {
+    text-align: right;
+    font-weight: bold;
+    font-family: arial;
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+    width: 30%;
+    padding: 25px 50px 5px 0px;
+  }
+
+  .totalcompras {
+    background:#F21D2F; /* rgb(242,29,47,95)   */
+    padding: 2px;
+    border-radius: 19%;
+    font-size: 10px;
+    color: #fff; /* rgb(255,255,255,100) */
+    position: relative;
+    top: -30px;
+    left: 15px;
+  }
+  .divLogotipo { 
+    width: 65%;
+  }
+  /* barra de navegacion*/
+  #divNavegacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 1.3rem;
+    
+  }
+  .controlMobil {
+    display:block;
+    text-align:center;
+    width: 5%;
+  }
+  .controlMenus {   
+    width: 95%;
+  }
+  .controlMenus ul {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+  }
+  .controlMenus li {
+    list-style: none;
+    width: auto;
+    font-size: 1rem;
+    font-family: arial;
+    padding: 0px 5px;
+  }
+  .controlMenus a {
+    color: #fff;
+    text-transform: lowercase;
+  }

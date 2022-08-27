@@ -1,0 +1,30 @@
+
+.slide0 {
+    width: 100%;
+    height: auto;
+  }
+  .slideImagen {
+    background-image: url('../../assets/img/slide/slide0.jpg') ;
+    background-size: cover;
+    width: 100%;
+    height: 97vh;
+  }
+  .slide0 h1 {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 3rem;
+    color: #fff; /* rgb(255,255,255,100) */
+    text-shadow: 3px 3px 3px #F21D2F;/* rgb(242,29,47,95)   */
+
+  }
+  .slide0 h2 {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 2.5rem;
+    color:  #fff; /* rgb(255,255,255,100) */
+    text-shadow: 3px 3px 3px #F21D2F;/* rgb(242,29,47,95)   */
+  }

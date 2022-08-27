@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+*{
+    margin:0;
+    padding:0;  
+    width:100%;      
+
+}
+body{
+    margin:0;
+    padding:0;
+}
+/* colores base */
+.colorback1{
+    background:#5499C7; /* rgb(84,153,199,78)   */
+    color:#fff;         /* rgb(255,255,255,100) */
+
+}
+.colorback2{
+    background:#466B73; /* rgb(70,107,115,45)   */
+    color:#fff;         /* rgb(255,255,255,100) */
+
+}
+.colorback3{
+    background:#F21D2F; /* rgb(242,29,47,95)   */
+    color:#fff;         /* rgb(255,255,255,100) */
+
+}

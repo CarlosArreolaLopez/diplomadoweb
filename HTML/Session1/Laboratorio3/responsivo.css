@@ -1,0 +1,6 @@
+/*-------------------------------------------*/
+@media only screen and (max-width:550px){
+.divLogotipo {width: 50%;}   
+.divMenu {display: none;}
+.divCarrito {width: 50%;}
+}

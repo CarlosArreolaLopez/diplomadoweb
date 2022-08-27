@@ -1,0 +1,17 @@
+/*--- Encabezado ---*/
+@media only screen and (max-width:550px){
+.divLogotipo {width: 50%;}   
+.divMenu {display: none;}
+.divCarrito { width: 50%;}
+/**/
+.controlMobil {
+    color:#fff;
+    display:block;
+  }
+  .controlMobil a {
+    color:#fff;  
+  }
+.controlMenus {
+    display:none;
+  }
+}
